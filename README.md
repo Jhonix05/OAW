@@ -3,14 +3,10 @@
 ## Colaboradores
 Agradecemos la contribución de los siguientes miembros del equipo:
 
-1. **ANDRES DE JESUS MENA SALAZAR**
-   ![Foto 1](enlace-a-foto-1)
+| Name          | Our sexy faces |
+| ------------- | ------------- |
+| Raymundo Mora  | <img src="assets/.jpg" height="220"> |
+| Esteban Pacheco  | <img src="assets/.jpg"  width="200" height="220"> |
+| Andrés Mena  | <img src="assets/LlXZ2T.jpg"  width="200" height="220"> |
+| Jacob Uc  | <img src="assets/.jpeg" height="220"> |
 
-2. **RAYMUNDO MORA HERNANDEZ**
-   ![Foto 2](enlace-a-foto-2)
-
-3. **ESTEBAN ALFONSO PACHECO SERRALTA**
-   ![Foto 3](enlace-a-foto-3)
-
-4. **JACOB JESUS UC COB**
-   ![Foto 3](enlace-a-foto-3)
