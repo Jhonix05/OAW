@@ -4,7 +4,7 @@
 Agradecemos la contribución de los siguientes miembros del equipo:
 
 1. **ANDRES DE JESUS MENA SALAZAR**
-   ![Foto 1](https://extranet.matematicas.uady.mx/enlinea/user/profile.php)
+   ![Foto 1](enlace-a-foto-1)
 
 2. **RAYMUNDO MORA HERNANDEZ**
    ![Foto 2](enlace-a-foto-2)
