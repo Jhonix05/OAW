@@ -6,7 +6,7 @@ Agradecemos la contribución de los siguientes miembros del equipo:
 | Name          | Our sexy faces |
 | ------------- | ------------- |
 | Raymundo Mora  | <img src="assets/Ray.jpg" height="220"> |
-| Esteban Pacheco  | <img src="assets/IMG20240130154839.jpg"  width="200" height="220"> |
+| Esteban Pacheco  | <img src="assets/IMG20240130154839.jpg"  width="150" height="220"> |
 | Andrés Mena  | <img src="assets/LlXZ2T.jpg"  width="200" height="220"> |
 | Jacob Uc  | <img src="assets/.jpeg" height="220"> |
 
