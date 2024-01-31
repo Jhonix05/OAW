@@ -9,4 +9,4 @@ Agradecemos la contribución de los siguientes miembros del equipo:
 | Esteban Pacheco  | <img src="assets/IMG20240130154839.jpg"  width="200" height="240"> |
 | Andrés Mena  | <img src="assets/LlXZ2T.jpg"  width="200" height="220"> |
 | Jacob Uc  | <img src="assets/jacob.jpg" height="200"> |
-
+| Víctor Flores  | <img src="assets/victor.jpeg" width="200" height="220"> |
