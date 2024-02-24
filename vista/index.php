@@ -8,7 +8,7 @@
 	<meta name="author" content="" />
 	<title>Lector de noticias RSS - Inicio</title>
 	<!-- Favicon-->
-	<link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+	<link rel="icon" type="image/x-icon" />
 	<!-- Core theme CSS (includes Bootstrap)-->
 	<link href="../css/styles.css" rel="stylesheet" />
 	<link href="../css/styles_front.css" rel="stylesheet" />
