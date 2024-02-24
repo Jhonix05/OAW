@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #444;
+}
+
+nav a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+/* Contenido principal y artículos */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1, header p {
+    text-shadow: 1px 1px 2px #333; /* Subtle text shadow for legibility */
+  }
+  button {
+    background-color: #0d6efd; /* Complementary button color */
+    background-image: linear-gradient(to bottom, #0d6efd, #0d6efd); /* Button gradient */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  button:hover {
+    background-image: linear-gradient(to top, #0d6efd, #0d6efd); /* Inverted gradient on hover */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  ul {
+    list-style-type: none; /* Removes the default bullet points */
+    padding-left: 0; /* Removes the default padding */
+}
+
+ul li {
+    margin-bottom: 15px; /* Adds space below each list item */
+    padding-left: 15px; /* Optional: Adds some padding to the left of the list item */
+    text-indent: -15px; /* Optional: Aligns the text correctly if padding is added */
+}
+
+ul li::before {
+    content: "• "; /* Adds a bullet point before the item text */
+    color: #333; /* Adjust the color to match your design */
+    font-weight: bold; /* Optional: Makes the bullet point bold */
+    padding-right: 5px; /* Adds space between the bullet point and the text */
+}
+.lead li {
+    margin-bottom: 1rem; /* This sets a margin below each list item */
+}
