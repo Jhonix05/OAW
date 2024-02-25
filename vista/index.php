@@ -18,7 +18,7 @@
 <body>
 	<!-- Responsive navbar-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<main class="container my-5">
+		<main class="container my-5 bg-dark">
 			<a class="navbar-brand" href="index.php" onclick="window.query='';">Lector de noticias RSS</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
