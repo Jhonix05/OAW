@@ -82,7 +82,7 @@ ul li {
 }
 
 ul li::before {
-    content: "• "; /* Adds a bullet point before the item text */
+    /* content: "• "; Adds a bullet point before the item text */
     color: #333; /* Adjust the color to match your design */
     font-weight: bold; /* Optional: Makes the bullet point bold */
     padding-right: 5px; /* Adds space between the bullet point and the text */
