@@ -92,7 +92,7 @@
 			</aside>
 
 			<!-- Blog entries-->
-			<article class="col-lg-8 mb-5">
+			<article class="col-lg-8 mb-5 text-center">
 				<!-- Nested row for non-featured blog posts-->
 				<div id="container" class="container row"></div>
 			</article>
