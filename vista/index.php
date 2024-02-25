@@ -31,6 +31,8 @@
 			</div>
 		</div>
 	</nav>
+
+
 	<!-- Header-->
 	<header class="bg-dark py-5">
 		<div class="container px-5">
@@ -50,6 +52,8 @@
 			</div>
 		</div>
 	</header>
+
+
 	<!-- Page content-->
 	<div class="container my-5">
 		<section class="row">
@@ -57,7 +61,7 @@
 			<article class="col-lg-8 mb-5">
 				<!-- Nested row for non-featured blog posts-->
 				<div id="container" class="container row"></div>
-			</div>
+			</article>
 			<!-- Side widgets-->
 			<aside class="col-lg-4 mb-5">
 				<!-- Search widget-->
@@ -92,9 +96,11 @@
 						<div class="row" id="link-categories"></div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</aside>
+		</section>
 	</div>
+
+	
 	<!-- Footer-->
 	<footer class="py-5 bg-light text-dark">
 		<main class="container my-5">
