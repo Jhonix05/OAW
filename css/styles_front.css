@@ -1,11 +1,15 @@
 
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: "Questrial", sans-serif;
     background-color: #fff;
     color: #333;
     line-height: 1.6;
-    /* padding: 20px; */
     margin: 0;
+}
+
+nav{
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 400;
 }
 
 /* Encabezado principal */
@@ -18,6 +22,20 @@ header {
     padding: 20px 0;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.9);
+}
+
+.imagen-index{
+    height: 21rem;
+}
+
+h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+}
+
+.btn{
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
 }
 
 /* Navegación */
@@ -48,6 +66,12 @@ article {
     margin-bottom: 20px;
     padding: 10px;
     border-bottom: 1px solid #e2e2e2;
+}
+
+#titulo-texto{
+    font-family: "Libre Baskerville", serif;
+    font-size: 19px;
+    font-weight: 600;
 }
 
 /* Pie de página */
@@ -95,4 +119,12 @@ ul li::before {
 }
 .lead li {
     margin-bottom: 1rem; /* This sets a margin below each list item */
+}
+
+.msg-title-noticias, .msg-body-noticias{
+    font-size: 40px;
+}
+
+.msg-body-noticias{
+    font-size: 22px;
 }
