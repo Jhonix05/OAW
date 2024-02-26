@@ -30,8 +30,8 @@ $items = $feed->get_items();
 unset($feed);
 
 if (!$items) {
-    echo "<h1>No hay noticias que mostrar</h1>";
-    echo "<h3>Añade nuevos feeds desde la pestaña correspondiente</h3>";
+    echo "<p class='msg-title-noticias'>No hay noticias por mostrar</p>";
+    echo "<p class='msg-body-noticias'>Añade nuevos feeds desde la pestaña correspondiente</p>";
     die;
 } else {
     // Si no hay un error se llama a la vista:
