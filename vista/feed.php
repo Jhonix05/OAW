@@ -11,13 +11,17 @@
 		<!-- Core theme CSS (includes Bootstrap)-->
 		<link href="../css/styles.css" rel="stylesheet" />
 		<link href="../css/styles_front.css" rel="stylesheet" />
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 		
 	</head>
 	<body>
 		<!-- Responsive navbar-->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 				<div class="container">
-						<a class="navbar-brand" href="../vista/index.php">Lector de noticias RSS</a>
+						<a id="titulo-texto" class="navbar-brand" href="../vista/index.php">Lector de noticias RSS</a>
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 						aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>

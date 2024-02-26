@@ -12,14 +12,18 @@
 	<!-- Core theme CSS (includes Bootstrap)-->
 	<link href="../css/styles.css" rel="stylesheet" />
 	<link href="../css/styles_front.css" rel="stylesheet" />
-	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 	<!-- Responsive navbar-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<main class="container my-5 bg-dark">
-			<a class="navbar-brand" href="index.php" onclick="window.query='';">Lector de noticias RSS</a>
+			<a id="titulo-texto" class="navbar-brand" href="index.php" onclick="window.query='';">Lector de noticias RSS</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 				aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -34,7 +38,7 @@
 
 
 	<!-- Header-->
-	<header class="py-5">
+	<header class="py-5 imagen-index">
 		<div class="container px-5">
 			<div class="row gx-5 align-items-center justify-content-center">
 				<div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -85,7 +89,7 @@
 							<option value="3">Descripción</option>
 							<option value="4">Menos reciente</option>
 						</select>
-						<h6 class="m-3">Categorías:</h6>
+						<p class="m-3">Categorías:</p>
 						<div class="row" id="link-categories"></div>
 					</div>
 				</div>
@@ -103,13 +107,10 @@
 
 	
 	<!-- Footer-->
-	<footer class="py-5 bg-light text-dark">
-		<main class="container my-5">
-			
-		</div>
-	</footer>	
-
-		<script src="../js/index_script.js"></script>
+	<footer class="py-5 bg-light text-dark bg-dark">
+		<!-- <div class="container"></div> -->
+	</footer>
+		
 </body>
-
+	<script src="../js/index_script.js"></script>
 </html>
