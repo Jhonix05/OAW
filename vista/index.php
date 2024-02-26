@@ -22,15 +22,21 @@
 <body>
 	<!-- Responsive navbar-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<main class="container my-5 bg-dark">
-			<a id="titulo-texto" class="navbar-brand" href="index.php" onclick="window.query='';">Lector de noticias RSS</a>
+		<main class="container my-5 bg-dark ">
+			<a id="titulo-texto" class="navbar-brand" href="index.php" onclick="window.query='';">
+				Lector de noticias RSS
+			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 				aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-					<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php">Inicio</a></li>
-					<li class="nav-item"><a class="nav-link" href="feed.php">Añadir Feeds</a></li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.php">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="feed.php">Añadir Feeds</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -39,6 +45,7 @@
 
 	<!-- Header-->
 	<header class="py-5 imagen-index">
+		<div class="overlay"></div>
 		<div class="container px-5">
 			<div class="row gx-5 align-items-center justify-content-center">
 				<div class="col-lg-8 col-xl-7 col-xxl-6">
