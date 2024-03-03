@@ -120,4 +120,5 @@
 		
 </body>
 	<script src="../js/index_script.js"></script>
+	<script src="../js/feed_script.js"></script>
 </html>

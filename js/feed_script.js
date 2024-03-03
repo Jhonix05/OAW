@@ -1,10 +1,22 @@
 
 function show(id) {
-    document.getElementById(id).style.display = 'block';
+    var element = document.getElementById(id);
+    if (element) {
+        element.style.display = 'block';
+    } else {
+        console.error('No se encontró ningún elemento con el ID:', id);
+    }
 }
+
 function hide(id) {
-    document.getElementById(id).style.display = 'none';
+    var element = document.getElementById(id);
+    if (element) {
+        element.style.display = 'none';
+    } else {
+        console.error('No se encontró ningún elemento con el ID:', id);
+    }
 }
+
 function successload(id) {
     setTimeout(function() { hide(id); }, 5000);
     setTimeout(function() { show('success'); }, 5000);
