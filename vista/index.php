@@ -94,7 +94,7 @@
 							<option value="1">Más reciente</option>
 							<option value="2">Título</option>
 							<option value="3">Descripción</option>
-							<option value="4">Menos reciente</option>
+							<option value="4">Más antiguo</option>
 						</select>
 						<p class="m-3">Categorías:</p>
 						<div class="row" id="link-categories"></div>
