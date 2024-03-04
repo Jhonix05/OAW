@@ -45,7 +45,36 @@
 					$image = 'https://dummyimage.com/700x350/dee2e6/6c757d.jpg';
 				}
 				$rssModel->set_item($title, $date, $description, $permalink, $categories, $image);
+			} else {
+				if ($item->get_title() && $item->get_date('Y-m-d H:i:s') && $item->get_description() && $item->get_permalink()) {
+					$title = $item->get_title();
+					$date = $item->get_date('Y-m-d H:i:s');
+					$description = $item->get_description();
+					$permalink = $item->get_permalink();
+					
+					// Extraer categorías
+					$categories = '';
+					if ($item->get_categories()) {
+						foreach ($item->get_categories() as $category) {
+							$categories .= $category->get_label() . ', ';
+						}
+						$categories = rtrim($categories, ', ');
+					}
+			
+					// Manejar la imagen, primero intentar con <itunes:image>, luego <image><url>
+					$image = 'https://dummyimage.com/700x350/dee2e6/6c757d.jpg'; // Imagen predeterminada
+					if ($item->get_enclosure() && $item->get_enclosure()->get_link()) {
+						$image = $item->get_enclosure()->get_link();
+					} elseif ($feed->get_image_url()) {
+						$image = $feed->get_image_url();
+					}
+			
+					// Almacenar los datos
+					$rssModel->set_item($title, $date, $description, $permalink, $categories, $image);
+				}
+
 			}
 
 		}
+
 	}
