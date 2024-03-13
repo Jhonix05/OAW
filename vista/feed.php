@@ -45,9 +45,7 @@
 							Añade feeds para estar siempre informado
 						</p>
 						<ol class="lead fw-normal mb-4">
-							<li>Ingresa la/las URL del Feed que deseas añadir a la base de datos en el cuadro.</li>
-							<li>Luego de esto, da click en guardar.</li>
-							<li>El botón de borrado borra la BD.</li>
+							
 						</ol>
 					</div>
 				</div>
