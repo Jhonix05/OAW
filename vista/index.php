@@ -119,6 +119,6 @@
 	</footer>
 		
 </body>
-	<script src="../js/index_script.js"></script>
-	<script src="../js/feed_script.js"></script>
+	<!-- JS minimizado -->
+	<script src="../build/js/js-min.js"></script>
 </html>
