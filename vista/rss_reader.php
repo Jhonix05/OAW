@@ -19,7 +19,9 @@
 
 		echo
 		"<div class='card mb-4'>
-			<a href='{$link}'><img class='card-img-top' src={$image} alt='Image New' /></a>
+			<a href='{$link}'>
+				<img loading='lazy' class='card-img-top' src={$image} alt='Image New' />
+			</a>
 			<div class='card-body'>
 				<div class='small text-muted'>{$date}</div>
 				<a href='{$link}'><h2 class='card-title cut-title h4'>{$title}</h2></a>
