@@ -11,7 +11,7 @@
 	<link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
 	<!-- Core theme CSS (includes Bootstrap)-->
 	<link href="../css/styles.css" rel="stylesheet" />
-	<link href="../css/styles_front.css" rel="stylesheet" />
+	<link href="../css/styles_front_min.css" rel="stylesheet" />
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
