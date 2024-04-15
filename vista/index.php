@@ -121,4 +121,6 @@
 </body>
 	<!-- JS minimizado -->
 	<script src="../build/js/js-min.js"></script>
+	<!-- Modernizr -->
+	<script src="../js/modernizr.js"></script>
 </html>

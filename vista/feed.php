@@ -45,7 +45,7 @@
 							Añade feeds para estar siempre informado
 						</p>
 						<ol class="lead fw-normal mb-4">
-							
+
 						</ol>
 					</div>
 				</div>
